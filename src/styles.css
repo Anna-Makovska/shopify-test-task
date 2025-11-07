@@ -1,16 +1,80 @@
-collection.section-template--19602900058250.featured.collection-padding {
+.section-template--19602900058250__featured_collection-padding.my-featured-section {
   background-color: #F5F5F5;
   padding-top: 43px;
   padding-bottom: 60px;
   padding-left: 0;
   padding-right: 0;
+  min-width: 375px
 }
-h2.title.inline-richtext.h2 {
+.my-featured-title {
     font-family: Gothic A1;
 font-weight: 900;
 font-size: 26px;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: center;
+color: #656874;
+margin-bottom: 30px;
 
 }
+.my-featured-slider-component {
+ padding: 0;
+}
+.my-featured-slider-component-list {
+  margin-top: 0;
+  gap: 50px;
+  
+}
+.card--standard > .card__content .card__information {
+  margin-top: 30px; 
+  margin-bottom: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 285px;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card__heading {
+  font-family: Gothic A1;
+font-weight: 700;
+font-size: 22px;
+line-height: 42px;
+letter-spacing: 0%;
+text-align: center;
+color: #656874;
+
+
+}
+.button--full-width {
+  background-color: #464B90;
+  color: #FFFFFF;
+  font-family: Gothic A1;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 40px;
+
+
+}
+.button--secondary,
+.button--secondary::after {
+  border: none;
+  box-shadow: none ;
+  
+}
+.quick-add__submit {
+ min-width: auto !important;
+  width: 285px !important;
+  height: 62px !important;
+margin: 0 auto;
+
+}
+
+

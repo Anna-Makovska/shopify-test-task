@@ -41,7 +41,7 @@
 }
 
 .card--card,
-.card--standard .card__inner {
+.card--standard .card__inner   {
   position: relative;
   box-sizing: border-box;
   border-radius: var(--border-radius);
@@ -113,8 +113,9 @@
   margin: var(--image-padding);
 }
 
-.card__inner {
-  width: 100%;
+.card__inner  {
+   width: 100%;
+
 }
 
 .card--media .card__inner .card__content {
